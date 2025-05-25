@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply m-10 rounded-lg bg-white px-6 py-8 shadow-xl ring-1 ring-slate-900/5 dark:bg-black;
+  }
+
+  .special-button {
+    @apply my-2 rounded-lg bg-blue-400 px-4 py-2 text-white hover:bg-amber-400 hover:text-black focus:outline-none focus:ring focus:ring-blue-300 active:bg-red-400;
+  }
+}
