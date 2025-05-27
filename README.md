@@ -11,14 +11,16 @@ A simple frontend project styled using [Tailwind CSS](https://tailwindcss.com/).
 
 ## 📁 Project Structure
 
-````tailwind_proj/
+```bash
+tailwind_proj/
 ├── index.html
 ├── styles/
 │ └── style.css
 ├── src/
 │ └── (your JS components, if any)
 ├── tailwind.config.js
-└── README.md```
+└── README.md
+```
 
 ## 🛠️ Getting Started
 
@@ -27,7 +29,7 @@ A simple frontend project styled using [Tailwind CSS](https://tailwindcss.com/).
 ```bash
 git clone https://github.com/taruns0203/tailwind_proj.git
 cd tailwind_proj
-````
+```
 
 ### 2. Install Dependencies
 
