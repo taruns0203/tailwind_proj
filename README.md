@@ -1,12 +1,48 @@
-# React + Vite
+# Tailwind Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple frontend project styled using [Tailwind CSS](https://tailwindcss.com/). This project serves as a starter template or sandbox for experimenting with Tailwind's utility-first CSS framework.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Lightning-fast styling with Tailwind CSS
+- 🧩 Component-based structure (HTML/CSS/JS)
+- 📱 Fully responsive design
+- 🔄 Easy to extend and customize
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+tailwind_proj/
+├── index.html
+├── styles/
+│ └── style.css
+├── src/
+│ └── (your JS components, if any)
+├── tailwind.config.js
+└── README.md
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/taruns0203/tailwind_proj.git
+cd tailwind_proj
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the Tailwind CLI
+
+```bash
+npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch
+```
+
+### 4. Run the Project
+
+```bash
+npm run dev
+```
