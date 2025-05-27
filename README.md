@@ -2,6 +2,8 @@
 
 A simple frontend project styled using [Tailwind CSS](https://tailwindcss.com/). This project serves as a starter template or sandbox for experimenting with Tailwind's utility-first CSS framework.
 
+## 🛜 Project link - [NIKE](https://nike.thecodesamurai.com/)
+
 ## 🚀 Features
 
 - ⚡ Lightning-fast styling with Tailwind CSS
